@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: mindful-self-frontend
+    ports:
+      - "8081:80"
+  backend:
+    image: mindful-self-backend
+    volumes:
+      - ./data:/service/data
+    ports:
+      - "8080:8080"
