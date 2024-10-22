@@ -7,7 +7,7 @@ Mindful-Self-Compassion App
 - Java: Open JDK 17
 - Docker
 
-### Deployment
+### Build
 
 Clean & Build SpringBoot locally (This will generate a JAR file)
 
